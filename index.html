@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<link rel="stylesheet" href="main.css">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+</head>
+<body>
+	<form action="#" id="user-form" class="user-form">
+		<label for="username" class="input-label">user name</label>
+		<input required type="text" id="username" class="input-item" pattern="[A-Za-zА-Яа-яЁё]{6,}">
+
+		<label for="email" class="input-label">email</label>
+		<input type="email" required id="email" class="input-item">
+
+		<label for="pass" class="input-label">password</label>
+		<input type="password" required id="pass" class="input-item" pattern="[A-Za-zА-Яа-яЁё]{8,12}">
+		<label for="reply" class="input-label">replay Password</label>
+		<input type="password" id="reply" class="input-item">
+		<label class="input-label" for="gender-area">enter your male</label>
+		<select name="gender" id="gender-area" class="gender-input">
+			<option value="Men">men</option>
+			<option value="women">women</option>
+		</select>	
+		<input type="reset" id="reset-btn" class="form-btn" value="Clear">
+		<button id="submit-btn" class="form-btn">Submit</button>	
+	</form>
+	<script src="main.js"></script>
+</body>
+</html>

@@ -1,0 +1,33 @@
+.user-form {
+	padding-top: 150px;
+	margin: 0 auto;
+	width: 50%;
+	text-align: center;
+}
+.input-label {
+	display: block;
+	text-transform: capitalize;
+	margin-bottom: 20px;
+}
+.input-item {
+	width: 90%;
+	margin-bottom: 20px;
+	padding:5px 20px;
+}
+.input-item:focus,
+.input-item:active {
+	outline: none;
+}
+.gender-input {
+	width: 96%;
+	height: 30px;
+	padding: 5px 20px;
+	margin-bottom: 20px;
+}
+.form-btn {
+	margin-right: 50px;
+}
+
+
+
+
